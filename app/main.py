@@ -23,7 +23,7 @@ async def upload_deb(file: UploadFile = File(...)):
     return {"filename": file.filename}
 
 
-@app.post("/api/deb/refresh-apt-cache")
+@app.post("/api/deb/refresh-apt")
 def refresh_apt_cache():
     cwd = UPLOAD_DIR
     try:
