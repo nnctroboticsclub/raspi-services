@@ -1,6 +1,6 @@
 #!/bin/bash -e
+. .env
 
-server="https://robo-rpi.tail39b6e.ts.net"
 group=$1
 
 if [ -z "$group" ]; then

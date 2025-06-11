@@ -1,6 +1,6 @@
 #!/bin/bash -e
+. .env
 
-server="https://robo-rpi.tail39b6e.ts.net/"
 file=$1
 group=$2
 
